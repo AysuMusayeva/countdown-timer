@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&family=Rowdies:wght@400;700&family=Titan+One&family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../images/snow.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 7rem;
+}
+.countdown-container{
+    display: flex;
+}
+.countdown-container .countdown-element{
+    margin: 2rem 1rem;
+    text-align: center;
+}
+.countdown-container .countdown-element .big-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.countdown-container .countdown-element span{
+    font-size: 1.5rem;
+}
